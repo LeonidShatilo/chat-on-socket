@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-socket",
+  "version": "1.0.0",
+  "description": "A chat application for sending and receiving messages in real time.",
+  "main": "app.js",
+  "scripts": {
+    "open": "start http://localhost:3000",
+    "start": "npm run open && nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonidShatilo/chat-on-socket.io.git"
+  },
+  "keywords": [
+    "ejs",
+    "css",
+    "js",
+    "chat",
+    "node.js",
+    "socket.io"
+  ],
+  "author": "Leonid Shatilo <shatiloleonid@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonidShatilo/chat-on-socket.io/issues"
+  },
+  "homepage": "https://github.com/LeonidShatilo/chat-on-socket.io#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^3.1.0"
+  }
+}
