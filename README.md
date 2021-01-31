@@ -18,6 +18,8 @@ Chat application for sending and receiving messages in real time. The applicatio
 Using:
 
 ```shell
+$ git clone https://github.com/LeonidShatilo/chat-on-socket.io/
+$ git checkout develop
 $ npm install
 $ npm run start
 ```
