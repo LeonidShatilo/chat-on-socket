@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      type="image/ico"
+      sizes="32x32"
+      rel="shortcut icon"
+      href="favicon.ico"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="/socket.io/socket.io.js"></script>
+    <title>Chat App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Chat App</h1>
+      </header>
+      <section class="chat-box">
+        <section>
+          <div id="change-username">
+            <input
+              type="text"
+              id="username"
+              class="input-field input-username"
+              placeholder="Anonymous"
+            />
+            <button type="button" id="send-username" class="button">
+              Change name
+            </button>
+          </div>
+        </section>
+        <section id="chatroom" class="chatroom">
+          <section id="feedback"></section>
+        </section>
+        <section class="wrapper-input-message">
+          <textarea
+            type="text"
+            id="message"
+            class="input-field input-message"
+            placeholder="Write a message..."
+          ></textarea>
+          <button type="button" id="send-message" class="button">Send</button>
+        </section>
+      </section>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>
