@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  font-size: 10px;
+}
+
+body {
+  background-color: #e2e2e2;
+}
+
+header {
+  margin: 2rem 1rem;
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  margin: 0 1rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  background: #e0e0e0;
+  box-shadow: 35px 35px 70px #bebebe, -35px -35px 70px #ffffff;
+}
+
+.input-field {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 1rem;
+  background: #e0e0e0;
+  box-shadow: inset 2px 2px 3px #bebebe, inset -2px -2px 3px #ffffff;
+}
+
+.button {
+  margin-left: 1.5rem;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 1rem;
+  background: #e0e0e0;
+  box-shadow: 4px 4px 7px #bebebe, -4px -4px 7px #ffffff;
+  color: #525252;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button:active {
+  box-shadow: inset 4px 4px 7px #bebebe, inset -4px -4px 7px #ffffff;
+  transform: scale(0.98);
+}
+
+.chatroom {
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  margin: 2rem 0;
+  padding: 2rem;
+  font-size: 1.7rem;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 1rem;
+  background: #e0e0e0;
+  box-shadow: inset 2px 2px 3px #bebebe, inset -2px -2px 3px #ffffff;
+  word-wrap: break-word;
+}
+
+.wrapper-input-message {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-username {
+  width: 130px;
+}
+
+.input-message {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  height: 40px;
+  width: -webkit-fill-available;
+  resize: none;
+  overflow: hidden;
+}
+
+.message,
+.feedback {
+  margin-bottom: 1rem;
+}
+
+.time,
+.username {
+  font-weight: bold;
+}
+
+.red {
+  color: Red;
+}
+
+.orange {
+  color: Orange;
+}
+
+.dark-cyan {
+  color: DarkCyan;
+}
+
+.blue-violet {
+  color: BlueViolet;
+}
+
+.green {
+  color: Green;
+}
+
+.medium-blue {
+  color: MediumBlue;
+}
+
+.olive {
+  color: Olive;
+}
+
+.indian-red {
+  color: IndianRed;
+}
+
+.dark-khaki {
+  color: DarkKhaki;
+}
