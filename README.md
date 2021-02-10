@@ -1,4 +1,4 @@
-# chat-on-socket.io
+# chat-on-socket
 
 <div style="text-align:center">
   <img src="https://github.com/LeonidShatilo/chat-on-socket.io/blob/develop/example.png" width="550px">
@@ -13,13 +13,10 @@
 
 Chat application for sending and receiving messages in real time. The application has a client part and a server part.
 
----
-
-Using:
+For the demonstration requires you to clone the repository, install the dependencies, and run the server.
 
 ```shell
-$ git clone https://github.com/LeonidShatilo/chat-on-socket.io/
-$ git checkout develop
+$ git clone https://github.com/LeonidShatilo/chat-on-socket/
 $ npm install
 $ npm run start
 ```
