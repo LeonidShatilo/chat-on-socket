@@ -1,7 +1,7 @@
 # chat-on-socket
 
 <div style="text-align:center">
-  <img src="https://github.com/LeonidShatilo/chat-on-socket.io/blob/develop/example.png" width="550px">
+  <img src="https://github.com/LeonidShatilo/chat-on-socket/blob/master/example.png" width="550px">
   <p><i>Screenshot of the application</i></p>
 </div>
 
