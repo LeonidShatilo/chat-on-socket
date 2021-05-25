@@ -1,13 +1,9 @@
 # chat-on-socket
 
-<div style="text-align:center">
-  <img src="https://github.com/LeonidShatilo/chat-on-socket/blob/master/example.png" width="550px">
-  <p><i>Screenshot of the application</i></p>
-</div>
+<img src="./example.png" width="550px">
+<p><i>Screenshot of the application</i></p>
 
-[Task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-0/projects.md#task-12-chat-on-socketio-20)
-
----
+[![TASK](https://img.shields.io/badge/-TASK-green?style=flat)](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-0/projects.md#task-12-chat-on-socketio-20)
 
 **Description**
 
